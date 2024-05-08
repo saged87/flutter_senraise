@@ -2,6 +2,7 @@ group 'hr.integrator.senraise.printservice.senraise'
 version '1.0'
 
 buildscript {
+    ext.kotlin_version = '1.8.10'
     repositories {
         google()
         mavenCentral()
