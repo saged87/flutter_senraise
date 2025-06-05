@@ -23,7 +23,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    namespace "com.senraise.flutter_senraise" // ✅ Required
+    namespace "hr.integrator.senraise.printservice.senraise" // ✅ Required
     compileSdkVersion 31
 
     compileOptions {
