@@ -34,4 +34,10 @@ android {
     defaultConfig {
         minSdkVersion 21
     }
+
+    sourceSets {
+        main {
+            aidl.srcDirs = ['src/main/aidl']
+        }
+    }
 }
